@@ -10,9 +10,9 @@ body{
     height: 100vh;
 }
 .container{
-   margin-top: -10%;
-    height: 750px;
-    width: 500px;
+   margin-top: ;
+    height: 730px;
+    width: 420px;
     border: 2px solid;
     border-radius: 15px;
 }
@@ -21,15 +21,15 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2.5em;
+    font-size: 2.1em;
     text-decoration: underline;
-    margin-top: 2%;
-    margin-bottom: 5%;
+    margin-top: 8%;
+    margin-bottom: 8%;
 }
 .questions ol li{
     margin-left: 15%;
     margin-top: 5%;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 input{
@@ -40,9 +40,13 @@ input{
 }
 .questions .btn{
     margin-left: 15%;
-    margin-top: 5%;
+    margin-top: 8%;
     font-size: 1.5em;
-    width: 62%;
+    width: 59%;
     padding: 1%;
     height: 50px;
  }
+
+.btn:hover{
+    cursor: pointer;
+}
